@@ -1,47 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilos.css">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    body {
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+  </style>
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="stylesicons.css"></head>
+   
+  
 </head>
 
 <body>
-    <div>
-  <div id="header">
-    <img src="./img/Ecudo.png" alt="log" id="log">
-  </div>
-  <div id="navBar">
-    <ul>
-      <li><a href="reg.html">Formulario Registro</a></li>
-      <li><a href="prod.html">Formulario Producto</a></li>
-      <li><a href="Matricula">Matriculas</a></li>
-    </ul>
-  </div>
-  <div id="Menuizquierdo">
-    <button class="Boton"><a href="log.html">LOGIN</a></button>
-    <button class="Boton">Matricula</button>
-  </div>
-  <div id="contenido">
-    <h2>Aplicación de Tecnologías WEB</h2>
-    <p class="Texto">Estudiante: Bryan CAstro</p>
-    <p class="Texto">NRC: ________</p>
-    <p class="Texto">Fecha: 16/05/2023</p>
-  </div>
-  <div id="Menuderecha">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0dzevnwz6Bc" title="YouTube video player"
-      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
-  </div>
-  <div id="footer">
-    <a href="cont.html" target="_blank" class="Texto">Contacto PARTE II</a>
-  </div>
+
+<div class="container">
+ <div class="row">
+  
+      <!-- header (Rectangle) -->
+      <header class="header col-lg-12 col-md-12 col-sm-12">
+        <img class="imagen" src="img/logo_ESPE.png" >
+    </header>
+
+<div class="col-lg-12 col-md-12 col-sm-12">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">Grupo 7</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Docente</a></li>
+          <li><a href="#">Comandante</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Grupo: <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" >Grupo 1</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Grupo 2</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Grupo 3</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Grupo 4</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Grupo 5</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Grupo 6</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Grupo 7</a></li>
+              
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="buscar">
+          </div>
+          <button class="btn btn-primary">Buscar</button>
+        </form>
+      </div>
+    </div>
+
+  </nav>
 </div>
 
-    <script src="./js/form1.js"></script>
+  <div class="container">
+    <div class="row">
+      <section class="leftMenu col-lg-3 col-md-3 col-sm-12">
+        <a href="#" class="Boton"><span class="glyphicon glyphicon-user"></span>LOGIN</a>
+        <a href="#" class="Boton"><span class="glyphicon glyphicon-hdd"></span>Registro</a>
+        <a href="#" class="Boton"><span class="glyphicon glyphicon-book"></span>Producto</a>
+      </section>
+
+      <section class="Texto content1 col-lg-5 col-md-5 col-sm-12" data-label="content">
+        <h2>Aplicacion de Tecnologias WEB</h2>
+        <p>Estudiante: Bryan Castro</p>
+        <p>NRC: 10037</p>
+        <p>Fecha: 24/05/2023</p>
+      </section>
+
+      <section class="rightMenu col-lg-4 col-md-4 col-sm-12">
+        <iframe height="254" width="auto" src="https://www.youtube.com/embed/nT2oGZfl1CE" frameborder="1" allowfullscreen></iframe>
+      </section>
+    </div>
+  </div>
+
+  <footer class="Texto footer1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <a href="#" class="btn btn-primary"><span class="icon-facebook"></span> Facebook</a>
+          <a href="#" class="btn btn-info"><span class="icon-twitter"></span> Twitter</a>
+          <a href="#" class="btn btn-danger"><span class="icon-youtube"></span> YouTube</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')
+  </script>
+
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>
